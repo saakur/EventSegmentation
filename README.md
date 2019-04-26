@@ -4,7 +4,7 @@ Code for the paper A Perceptual Prediction Framework for Self Supervised Event S
 ## Preparation:
   All videos must be extracted into individual frames. One folder per video with each folder containing the frames for the video.
   
-    Example code for extracting frames is shown in preprocessVideo.py for the Breakfast Actions dataset. Download the videos from https://uni-bonn.sciebo.de/index.php/s/QRQuGAtNfOYi3yM. After extraction, run the ```preprocessVideo.py``` code for extracting frames. Takes approximately 3-6 hours depending on your computation.
+   Example code for extracting frames is shown in preprocessVideo.py for the Breakfast Actions dataset. Download the videos from https://uni-bonn.sciebo.de/index.php/s/QRQuGAtNfOYi3yM. After extraction, run the ```preprocessVideo.py``` code for extracting frames. Takes approximately 3-6 hours depending on your computation.
   
   Requirements: Python 2.7, Tensorflow 1.6+, scipy and numpy
   
