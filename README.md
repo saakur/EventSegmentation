@@ -30,3 +30,13 @@ Code for the paper A Perceptual Prediction Framework for Self Supervised Event S
   Note: Due to the self-supervised nature of the approach, the output classes will be in serial order (i.e. 0,1, ..., n). TO evaluate, transform ground truth to same format and run evaluation scripts for the dataset. 
   Example Evaluation for Breakfast Actions Dataset is shown in evaluateBreakfastActions.py.
   Note: The original script was written in Tensorflow 1.3. Newer versions of Tensorflow and Python have shown minor variations in performance. Running the script should lead to the reported accuracy of 42.8% MoF on Breakfast Actions.
+
+Please cite if this has been useful:
+```
+@article{aakur2018perceptual,
+  title={A Perceptual Prediction Framework for Self Supervised Event Segmentation},
+  author={Aakur, Sathyanarayanan N and Sarkar, Sudeep},
+  journal={arXiv preprint arXiv:1811.04869},
+  year={2018}
+}
+```
